@@ -1,5 +1,7 @@
 # Learn_js
 
-- jsを使ったページ要素を残していきます。
+- Confirmウィンドウの表示
+- テキスト内のキーワードを別のキーワードに変換するミニアプリ
 
-![スクリーンショット 2020-03-18 01 26 50](https://user-images.githubusercontent.com/47127483/76878141-c0225200-68b7-11ea-8e89-3c77844ce425.png)
+![スクリーンショット 2020-03-18 14 37 08](https://user-images.githubusercontent.com/47127483/76928881-1f1eb000-6926-11ea-97ae-2926ebd1125a.png)
+
