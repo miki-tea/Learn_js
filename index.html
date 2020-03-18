@@ -8,8 +8,30 @@
   </head>
   <body>
     <div class="container">
-      <button id="btn">ボタン</button>
-      <span id="msgBox"></span>
+      <p>Confirmウィンドウ表示</p>
+      <button id="btn" class="btn">Confirm</button>
+      <p id="msgBox" class="msgBox">結果がここに表示されます。</p>
+    </div>
+
+    <div class="container">
+      <label>
+        検索対象テキスト
+        <textarea id="reference-txt"></textarea>
+      </label>
+
+      <label>
+        検索ワード&raquo;
+        <input type="text" id="original-key" />
+      </label>
+
+      <label>
+        置換ワード&raquo;
+        <input type="text" id="replace-key" />
+      </label>
+
+      <button id="rep-btn" class="btn">検索</button>
+
+      <p id="result" class="msgBox">結果がここに表示されます。</p>
     </div>
 
     <script src="main.js"></script>

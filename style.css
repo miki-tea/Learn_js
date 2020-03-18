@@ -1,7 +1,7 @@
 body {
   background: #eee;
 }
-#btn {
+.btn {
   display: inline-block;
   color: #fff;
   background: #0081cf;
@@ -9,21 +9,37 @@ body {
   border: none;
   padding: 1px 10px;
   border-radius: 3px;
-  margin: 0 0 5px;
+  margin: 10px 0;
 }
 
 .container {
-  width: 150px;
-  height: 100px;
+  width: 400px;
+  /* height: 100px; */
   border: #ddd 1px solid;
   margin: 100px auto;
   text-align: center;
   background: #fff;
-  padding-top: 25px;
+  padding: 25px;
   box-sizing: border-box;
   border-radius: 10px;
 }
-span {
+
+.msgBox {
   display: block;
   color: #0081cf;
+}
+.reference-text {
+  width: 100%;
+}
+label {
+  width: 100%;
+  display: inline-block;
+}
+textarea {
+  width: 100%;
+  border: 1px #ddd solid;
+  height: 100px;
+}
+input {
+  border: 1px #ddd solid;
 }
