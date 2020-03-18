@@ -1,3 +1,4 @@
+// < !--ここから　Confirmウィンドウ表示-- >
 let btn = document.getElementById("btn");
 let msgBox = document.getElementById("msgBox");
 
@@ -11,7 +12,9 @@ btn.addEventListener("click", () => {
     msgBox.innerText = "キャンセル";
   }
 });
+// < !--ここまで　Confirmウィンドウ表示-- >
 
+// < !--ここから　ミニアプリ：検索対象テキスト-- >
 let repBtn = document.getElementById("rep-btn");
 
 repBtn.addEventListener("click", () => {
@@ -37,4 +40,6 @@ repBtn.addEventListener("click", () => {
     orgKeyMatch,
     repKey
   )}`;
+
+  // < !--ここまで　ミニアプリ：検索対象テキスト-- >
 });
